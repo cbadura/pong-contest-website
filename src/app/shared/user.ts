@@ -1,6 +1,7 @@
 export interface User {
-    name: string;
+    id: number;
+    userName: string;
     score: number;
     color?: string;
-    avatar?: any;
+    avatarUrl?: string;
 }

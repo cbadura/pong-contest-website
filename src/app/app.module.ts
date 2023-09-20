@@ -8,6 +8,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { GameComponent } from './game/game.component';
 import { ChatComponent } from './chat/chat.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { UserListComponent } from './user-list/user-list.component';
+import { SortByScorePipe } from './sort-by-score.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { LeaderboardComponent } from './leaderboard/leaderboard.component';
     ProfileComponent,
     GameComponent,
     ChatComponent,
-    LeaderboardComponent
+    LeaderboardComponent,
+    UserListComponent,
+    SortByScorePipe
   ],
   imports: [
     BrowserModule,
