@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  pages = ['Game', 'Leaderbord', 'Chat', 'Profile'];
+  pages = ['Game', 'Leaderboard', 'Chat', 'Profile'];
 }

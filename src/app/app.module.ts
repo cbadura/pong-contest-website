@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ProfileComponent } from './profile/profile.component';
+import { GameComponent } from './game/game.component';
+import { ChatComponent } from './chat/chat.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ProfileComponent
+    ProfileComponent,
+    GameComponent,
+    ChatComponent,
+    LeaderboardComponent
   ],
   imports: [
     BrowserModule,
