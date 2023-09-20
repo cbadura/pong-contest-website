@@ -11,6 +11,8 @@ import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { SortByScorePipe } from './sort-by-score.pipe';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,8 +26,8 @@ import { SortByScorePipe } from './sort-by-score.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+		AppRoutingModule
+	],
   providers: [],
   bootstrap: [AppComponent]
 })
