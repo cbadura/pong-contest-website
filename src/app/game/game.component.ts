@@ -18,8 +18,9 @@ export class GameComponent {
   ngAfterViewInit(): void {
     this.ctx = this.canvas.nativeElement.getContext('2d') as CanvasRenderingContext2D;
     this.ctx.fillStyle = 'red';
-    const square = new Square(this.ctx);
-    square.draw(10, 20, 50, 50);
+    const paddle = new Square(this.ctx, 10, 50);
+    paddle.draw(10, 20);
+    paddle.move();
   }
   
   play(): void {}
